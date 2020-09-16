@@ -27,7 +27,7 @@ F 6 "Digikey" H 6850 4100 50  0001 C CNN "Source"
 F 7 "2138-JB5630AWT-P-H40GA0000-NZ000001CT-ND" H 6850 4100 50  0001 C CNN "Source Part No."
 F 8 "LED Lighting J White, Neutral 4000K 3-Step MacAdam Ellipse 2.71V 65mA 120° 2212 (5630 Metric)" H 6850 4100 50  0001 C CNN "Description"
 	1    6850 4100
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Frequently_Used_LE:GND #PWR02
@@ -135,7 +135,7 @@ F 6 "Digikey" H 6400 4100 50  0001 C CNN "Source"
 F 7 "2138-JB5630AWT-P-H40GA0000-NZ000001CT-ND" H 6400 4100 50  0001 C CNN "Source Part No."
 F 8 "LED Lighting J White, Neutral 4000K 3-Step MacAdam Ellipse 2.71V 65mA 120° 2212 (5630 Metric)" H 6400 4100 50  0001 C CNN "Description"
 	1    6400 4100
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Frequently_Used_LE:LED D1
@@ -151,7 +151,7 @@ F 6 "Digikey" H 5950 4100 50  0001 C CNN "Source"
 F 7 "2138-JB5630AWT-P-H40GA0000-NZ000001CT-ND" H 5950 4100 50  0001 C CNN "Source Part No."
 F 8 "LED Lighting J White, Neutral 4000K 3-Step MacAdam Ellipse 2.71V 65mA 120° 2212 (5630 Metric)" H 5950 4100 50  0001 C CNN "Description"
 	1    5950 4100
-	0    1    1    0   
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Frequently_Used_LE:R R3
