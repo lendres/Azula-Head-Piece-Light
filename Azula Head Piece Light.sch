@@ -289,16 +289,16 @@ Wire Wire Line
 $Comp
 L Frequently_Used_LE:Logo L1
 U 1 1 5F598CE9
-P 7100 6250
-F 0 "L1" H 7185 6296 50  0000 L CNN
-F 1 "Logo" H 7185 6205 50  0000 L CNN
-F 2 "Logos_LE:OSHW-Symbol_4mm_Silkscreen" H 7100 6250 50  0001 C CNN
-F 3 "None" H 7100 6250 50  0001 C CNN
-F 4 "None" H 7100 6250 50  0001 C CNN "Description"
-F 5 "None" H 7100 6250 50  0001 C CNN "Manufacturer Name"
-F 6 "None" H 7100 6250 50  0001 C CNN "Manufacturer Part No."
-F 7 "None" H 7100 6250 50  0001 C CNN "Source"
-	1    7100 6250
+P 8200 6150
+F 0 "L1" H 8285 6196 50  0000 L CNN
+F 1 "Logo" H 8285 6105 50  0000 L CNN
+F 2 "Logos_LE:OSHW-Symbol_4mm_Silkscreen" H 8200 6150 50  0001 C CNN
+F 3 "None" H 8200 6150 50  0001 C CNN
+F 4 "None" H 8200 6150 50  0001 C CNN "Description"
+F 5 "None" H 8200 6150 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 8200 6150 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 8200 6150 50  0001 C CNN "Source"
+	1    8200 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -335,4 +335,59 @@ Wire Wire Line
 	6600 3350 6600 3450
 Wire Wire Line
 	5300 4250 5300 4350
+$Comp
+L Mechanical_LE:Fiducial FID1
+U 1 1 5F687C5C
+P 8750 6150
+F 0 "FID1" H 8835 6196 50  0000 L CNN
+F 1 "Fiducial" H 8750 5800 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 8750 6000 50  0001 C CNN
+F 3 "None" H 8700 6150 50  0001 C CNN
+F 4 "TOP1" H 8835 6105 50  0000 L CNN "Name"
+F 5 "None" H 8750 5700 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 8750 5600 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 8750 5400 50  0001 C CNN "Source"
+F 8 "None" H 8750 5500 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 8750 5900 50  0001 C CNN "Description"
+	1    8750 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID2
+U 1 1 5F689A36
+P 9300 6150
+F 0 "FID2" H 9385 6196 50  0000 L CNN
+F 1 "Fiducial" H 9300 5800 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 9300 6000 50  0001 C CNN
+F 3 "None" H 9250 6150 50  0001 C CNN
+F 4 "TOP2" H 9385 6105 50  0000 L CNN "Name"
+F 5 "None" H 9300 5700 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 9300 5600 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 9300 5400 50  0001 C CNN "Source"
+F 8 "None" H 9300 5500 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 9300 5900 50  0001 C CNN "Description"
+	1    9300 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical_LE:Fiducial FID3
+U 1 1 5F68A5FE
+P 9800 6150
+F 0 "FID3" H 9885 6196 50  0000 L CNN
+F 1 "Fiducial" H 9800 5800 50  0001 C CNN
+F 2 "Fiducial_LE:Fiducial_1mm_Mask2mm" H 9800 6000 50  0001 C CNN
+F 3 "None" H 9750 6150 50  0001 C CNN
+F 4 "TOP3" H 9885 6105 50  0000 L CNN "Name"
+F 5 "None" H 9800 5700 50  0001 C CNN "Manufacturer Name"
+F 6 "None" H 9800 5600 50  0001 C CNN "Manufacturer Part No."
+F 7 "None" H 9800 5400 50  0001 C CNN "Source"
+F 8 "None" H 9800 5500 50  0001 C CNN "Source Part No."
+F 9 "Fiducial mark" H 9800 5900 50  0001 C CNN "Description"
+	1    9800 6150
+	1    0    0    -1  
+$EndComp
+Text Notes 8550 6450 0    79   ~ 16
+Additional Features
+Text Notes 5400 5000 0    79   ~ 16
+Schematic
 $EndSCHEMATC
